@@ -21,3 +21,32 @@ h1{
     position: relative;
     left: 55px;
 }
+@media (max-width: 600px) {
+    body {
+        font-size: large;
+    }
+
+    img {
+        width: 80px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    body {
+        font-size: larger;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1201px) {
+    body {
+        font-size: x-large;
+    }
+
+    img {
+        width: 120px;
+    }
+}
